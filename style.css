@@ -19,6 +19,7 @@ main {
   top: 0;
   left: 0;
   overflow: hidden;
+  z-index: -1;
 }
 
 main video {
@@ -96,13 +97,13 @@ main .cover {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-
+  font-size: 1.1rem;
   padding: 0.35rem 1rem;
   outline: none;
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .booking__selecting--programs {
     font-size: 0.95rem;
   }
