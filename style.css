@@ -59,19 +59,19 @@ main .cover {
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
-  color: sandybrown;
+  color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 600px) {
   .booking__title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .booking__title {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
